@@ -35,6 +35,11 @@
   align-items: center;
 }
 
+.AboutContent{
+  width: 900px;
+  margin-bottom: 20px;
+}
+
 .ServicesContainer{
   padding-left: 50px;
   padding-right: 50px;
