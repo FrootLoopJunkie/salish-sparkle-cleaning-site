@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/salish-sparkle-cleaning-site/static/css/main.a4131b03.css",
+    "main.js": "/salish-sparkle-cleaning-site/static/js/main.7a41a06d.js",
+    "static/js/787.17d863d7.chunk.js": "/salish-sparkle-cleaning-site/static/js/787.17d863d7.chunk.js",
+    "index.html": "/salish-sparkle-cleaning-site/index.html",
+    "main.a4131b03.css.map": "/salish-sparkle-cleaning-site/static/css/main.a4131b03.css.map",
+    "main.7a41a06d.js.map": "/salish-sparkle-cleaning-site/static/js/main.7a41a06d.js.map",
+    "787.17d863d7.chunk.js.map": "/salish-sparkle-cleaning-site/static/js/787.17d863d7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a4131b03.css",
+    "static/js/main.7a41a06d.js"
+  ]
+}
