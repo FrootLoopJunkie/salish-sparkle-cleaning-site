@@ -27,7 +27,7 @@ function Contact() {
                 <input onChange = {(e) => setEmail(e.target.value)} type="email" id="Email" name="Email" className="InputField" required />
             </div>
             <div className='Inline'>
-                <label for="Email" className="InputLabel">Phone Number: </label>
+                <label for="Phonenumber" className="InputLabel">Phone Number: </label>
                 <input onChange = {(e) => setPhoneNumber(e.target.value)} type="tel" id="Phone Number" name="Phonenumber" className="InputField" required />
             </div>    
         </div>
