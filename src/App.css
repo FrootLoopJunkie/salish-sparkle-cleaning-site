@@ -3,7 +3,7 @@
 *{
   color: #FFFFF0;
   background-color: #56C7D3;
-
+  overflow-x: hidden;
   text-align: center;
   font-family: "Chelsea Market";
 }
@@ -20,7 +20,12 @@
   border : 2px solid #D6F7FF;
 }
 
+.Inline{
+  margin: 10px;
+}
+
 .ContactFormHeader{
+  font-size: larger;
   margin-top: 20px;
 }
 
@@ -38,7 +43,8 @@
   margin-top: 20px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: right;
+  flex-wrap: wrap;
 }
 
 .ContactFormContainer{
@@ -274,7 +280,15 @@ button:hover{
   color: #2271ca;
 }
 
+.ErrorMessageContainer{
+  display: flex;
+  flex-direction: column;
+}
 
+.ErrorMessage{
+  font-size: small;
+  color: rgb(216, 68, 68);
+}
 
 .flexboxColumn{
   padding: 0px;

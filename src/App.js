@@ -7,6 +7,7 @@ import About from './components/About.js'
 import Services from './components/Services.js'
 import ImageSlideshow from './components/ImageSlideshow.js';
 import ConsultationButtonInline from './components/ConsultationButtonInline.js';
+import Contact from './components/Contact.js'
 
 function App() {
   const [currentPage, setCurrentPage] = useState("Home");
@@ -54,36 +55,7 @@ function App() {
         <span className='ConsultationHeader'>Consultations</span>
         <div>
           <button className='ConsultationRequestButton' onClick={()=> window.location = "tel:425-521-7835"}>Call for Quote</button>
-          <div className='ContactFormContainer'>
-            <span className='ContactFormHeader'>Contact Form</span>
-            <div className='ContactFormLine'>
-              <div className='Inline'>
-                <label for="Email" className="InputLabel">Email Address: </label>
-                <input type="email" id="Email" name="Email" className="InputField" required />
-              </div>
-              <div className='Inline'>
-                <label for="Email" className="InputLabel">Phone Number: </label>
-                <input type="tel" id="Phonenumber" name="Phonenumber" className="InputField" required />
-              </div>    
-            </div>
-            <div className='ContactFormLine'>
-              <div className='Inline'>
-                <label for="Name" className="InputLabel">Name: </label>
-                <input type="text" id="Name" name="Name" className="InputField" required />
-              </div>
-              <div className='Inline'>
-                <label for="Zipcode" className="InputLabel">Zipcode: </label>
-                <input type="text" id="Zipcode" name="Zipcode" className="InputField" required />
-              </div>    
-            </div>
-            <div className='ContactFormHeader'>
-              <span>Tell Us About Your Home/Space:</span>
-              <div>
-                <textarea className='ContactFormInputField'></textarea>
-              </div>
-            </div>
-            <button className='ContactFormSendEmailButton'>Send Email</button>
-          </div>
+          <Contact />
           <br></br>
           <span>Hours:</span>
           <br></br>
