@@ -13,11 +13,16 @@
 }
 
 .InputField{
+  border-radius: 10px;
   color: #56C7D3;
   margin-right: 10px;
   height: 30px;
   background-color: #D6F7FF;
   border : 2px solid #D6F7FF;
+}
+
+.Content{
+  margin-bottom: 50px;
 }
 
 .Inline{
@@ -30,6 +35,7 @@
 }
 
 .ContactFormInputField{
+  border-radius: 10px;
   color: #56C7D3;
   width: 90%;
   height: 200px;
@@ -48,12 +54,18 @@
 }
 
 .ContactFormContainer{
+  margin-top: 30px;
   width: fit-content;
+  border-radius: 10px;
   max-width: 90vw;
   padding: 20px;
   margin-left: auto;
   margin-right: auto;
-  border : 2px solid #D6F7FF;
+  border : 3px solid #D6F7FF;
+}
+
+.ContactFormContainer:focus{
+  background-color: red;
 }
 
 .ConsultationHeader{
@@ -62,21 +74,24 @@
 
 .ContactFormSendEmailButton{
   margin: 20px;
-  border : 2px solid #D6F7FF;
+  background-color: #17554d;
+  border : 2px solid #17554d;
   border-radius: 40px;
-  width: 150px;
-  height: 50px;
+  width: 350px;
+  height: 100px;
   cursor: pointer;
 }
 
 button:hover{
   background-color: #D6F7FF;
+  border : 2px solid #D6F7FF;
   color: #56C7D3;
 }
 
 .ConsultationRequestButton{
+  background-color: #17554d;
   margin: 20px;
-  border : 2px solid #D6F7FF;
+  border : 2px solid #17554d;
   border-radius: 40px;
   width: 350px;
   height: 100px;
@@ -85,10 +100,12 @@ button:hover{
 
 .ConsultationRequestButton:hover{
   background-color: #D6F7FF;
+  border : 2px solid #D6F7FF;
   color: #56C7D3 ;
 }
 
 .Header{
+  background-color: #17554d;
   cursor: pointer;
   height: 75px;
   display: flex;
@@ -98,11 +115,17 @@ button:hover{
   font-size: x-large;
 }
 
+.HeaderSalishSparkle{
+  background-color: inherit;
+}
+
 .HeaderPhoneNumber{
+  background-color: #17554d;
   font-size: small;
 }
 
 .HeaderMotto{
+  background-color: inherit;
   font-size: small
 }
 
@@ -137,18 +160,20 @@ button:hover{
 }
 
 .ServiceContainer{
+  background-color: #17554d;
   display: flex;
   flex-direction: column;
   border-radius: 20px;
   cursor: pointer;
   width : 200px;
-  border : 2px solid #D6F7FF;
+  border : 2px solid #17554d;
   padding : 50px;
   margin : 20px;
 }
 
 .ServiceContainer:hover{
   background-color: #D6F7FF;
+  border : 2px solid #D6F7FF;
   color: #56C7D3;
 }
 
@@ -158,16 +183,22 @@ button:hover{
 }
 
 .FooterContainer{
-  position: relative;
+  bottom: 0px;
+  background-color: #17554d;
+  position: sticky;
   bottom: 0;
   width: 100%;
-  height: fit-content;
+  height: 50px;
   width: 100vw;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   font-size: smaller;
+}
+
+.FooterContent{
+  background-color: #17554d;
 }
 
 .ImageSlideshowContainer{
@@ -198,9 +229,11 @@ button:hover{
 }
 
 .ConsultationButton{
+  color: #D6F7FF;
+  background-color: #17554d;
   font-size: medium;
   border-radius: 50px;
-  border : 2px solid #D6F7FF;
+  border : 2px solid #17554d;
   cursor: pointer;
   position:absolute;
   width: 250px;
@@ -212,9 +245,11 @@ button:hover{
 }
 
 .ConsultationButtonInline{
+  color: #D6F7FF;
+  background-color: #17554d;
   font-size: medium;
   border-radius: 50px;
-  border : 2px solid #D6F7FF;
+  border : 2px solid #17554d;
   cursor: pointer;
   width: 250px;
   height: 75px;
@@ -225,6 +260,7 @@ button:hover{
 .ConsultationButton:hover{
   background-color: #D6F7FF;
   color: #56C7D3;
+  border : 2px solid #D6F7FF;
 }
 
 .SlideshowImage{
@@ -263,7 +299,7 @@ button:hover{
 .ServiceCatergory{
   padding-bottom: 10px;
   margin-right: 60px;
-  color: #2271ca;
+  color: #17554d;
 }
 
 .ServicesOffered{
@@ -277,7 +313,7 @@ button:hover{
 }
 
 .ServicesListItem{
-  color: #2271ca;
+  color: #17554d;
 }
 
 .ErrorMessageContainer{

@@ -52,15 +52,12 @@ function App() {
         <Header 
           changePageTo={changePageTo}
         />
-        <span className='ConsultationHeader'>Consultations</span>
-        <div>
-          <button className='ConsultationRequestButton' onClick={()=> window.location = "tel:425-521-7835"}>Call for Quote</button>
-          <Contact />
           <br></br>
           <span>Hours:</span>
           <br></br>
           <span>9am to 6pm - 7 Days a Week</span>
-        </div>
+          <Contact />
+          <button className='ConsultationRequestButton' onClick={()=> window.location = "tel:425-521-7835"}>Call for Quote</button>
         <Footer />
       </div>
     )
