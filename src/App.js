@@ -51,7 +51,16 @@ function App() {
         <Header 
           changePageTo={changePageTo}
         />
-        <span>Consultations</span>
+        <span className='ConsultationHeader'>Consultations</span>
+        <div>
+          <button className='ConsultationRequestButton' onClick={()=> window.location = "tel:425-521-7835"}>Call for Quote</button>
+          <span> or </span>
+          <button className='ConsultationRequestButton' onClick={()=> window.location = "mailto:sales@salishsparklecleaning.com"}>Email for Quote</button>
+          <br></br>
+          <span>Hours:</span>
+          <br></br>
+          <span>9am to 6pm - 7 Days a Week</span>
+        </div>
         <Footer />
       </div>
     )

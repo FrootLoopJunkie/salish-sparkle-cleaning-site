@@ -8,6 +8,23 @@
   font-family: "Chelsea Market";
 }
 
+.ConsultationHeader{
+  margin: 20px;
+}
+
+.ConsultationRequestButton{
+  margin: 20px;
+  border : 2px solid #0262a7;
+  border-radius: 40px;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.ConsultationRequestButton:hover{
+  background-color: #0262a7;
+}
+
 .Header{
   cursor: pointer;
   height: 75px;
