@@ -8,16 +8,69 @@
   font-family: "Chelsea Market";
 }
 
+.ContactFormLineOne{
+  margin-top: 20px;
+}
+
+.InputField{
+  margin-right: 10px;
+  height: 30px;
+  background-color: #0262a7;
+  border : 2px solid #0262a7;
+}
+
+.ContactFormHeader{
+  margin-top: 20px;
+}
+
+.ContactFormInputField{
+  width: 90%;
+  height: 200px;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #0262a7;
+  border : 2px solid #0262a7;
+}
+
+.ContactFormLine{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.ContactFormContainer{
+  width: fit-content;
+  max-width: 90vw;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border : 2px solid #0262a7;
+}
+
 .ConsultationHeader{
   margin: 20px;
+}
+
+.ContactFormSendEmailButton{
+  margin: 20px;
+  border : 2px solid #0262a7;
+  border-radius: 40px;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: #0262a7;
 }
 
 .ConsultationRequestButton{
   margin: 20px;
   border : 2px solid #0262a7;
   border-radius: 40px;
-  width: 150px;
-  height: 50px;
+  width: 350px;
+  height: 100px;
   cursor: pointer;
 }
 
