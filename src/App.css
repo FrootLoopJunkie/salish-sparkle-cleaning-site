@@ -2,10 +2,11 @@
 
 *{
   color: #FFFFF0;
-  background-color: #56C7D3;
+  background-color: #1AA7B6;
   overflow-x: hidden;
   text-align: center;
   font-family: "Chelsea Market";
+  font-size: 1rem;
 }
 
 .ContactFormLineOne{
@@ -23,6 +24,12 @@
 
 .Content{
   margin-bottom: 50px;
+}
+
+.ServicesHeader{
+  font-size: x-large;
+  font-weight: bold;
+  padding-top: 20px;
 }
 
 .Inline{
@@ -74,8 +81,8 @@
 
 .ContactFormSendEmailButton{
   margin: 20px;
-  background-color: #17554d;
-  border : 2px solid #17554d;
+  background-color: #0B7581;
+  border : 2px solid #0B7581;
   border-radius: 40px;
   width: 350px;
   height: 100px;
@@ -89,9 +96,10 @@ button:hover{
 }
 
 .ConsultationRequestButton{
-  background-color: #17554d;
+  font-size: x-large;
+  background-color: #0B7581;
   margin: 20px;
-  border : 2px solid #17554d;
+  border : 2px solid #0B7581;
   border-radius: 40px;
   width: 350px;
   height: 100px;
@@ -105,7 +113,7 @@ button:hover{
 }
 
 .Header{
-  background-color: #17554d;
+  background-color: #0B7581;
   cursor: pointer;
   height: 75px;
   display: flex;
@@ -120,13 +128,17 @@ button:hover{
 }
 
 .HeaderPhoneNumber{
-  background-color: #17554d;
+  background-color: inherit;
   font-size: small;
 }
 
 .HeaderMotto{
   background-color: inherit;
   font-size: small
+}
+
+.AboutHeader{
+  font-size: x-large;
 }
 
 .AboutContainer{
@@ -139,12 +151,18 @@ button:hover{
 }
 
 .AboutContent{
+  font-size: large;
   width: 900px;
   max-width: 90vw;
   margin-bottom: 20px;
 }
 
+.ServiceCatergory{
+  background-color: inherit;
+}
+
 .ServicesContainer{
+  background-color: inherit;
   padding-left: 50px;
   padding-right: 50px;
   margin-top: 20px;
@@ -160,13 +178,15 @@ button:hover{
 }
 
 .ServiceContainer{
-  background-color: #17554d;
+  font-size: x-large;
+  background-color: #0B7581;
   display: flex;
   flex-direction: column;
   border-radius: 20px;
   cursor: pointer;
-  width : 200px;
-  border : 2px solid #17554d;
+  width : 250px;
+  text-align: center;
+  border : 2px solid #0B7581;
   padding : 50px;
   margin : 20px;
 }
@@ -178,13 +198,14 @@ button:hover{
 }
 
 .ServicesText{
+  
   background-color: inherit;
   color:inherit;
 }
 
 .FooterContainer{
   bottom: 0px;
-  background-color: #17554d;
+  background-color: #0B7581;
   position: sticky;
   bottom: 0;
   width: 100%;
@@ -198,7 +219,7 @@ button:hover{
 }
 
 .FooterContent{
-  background-color: #17554d;
+  background-color: inherit;
 }
 
 .ImageSlideshowContainer{
@@ -230,10 +251,10 @@ button:hover{
 
 .ConsultationButton{
   color: #D6F7FF;
-  background-color: #17554d;
-  font-size: medium;
+  background-color: #0B7581;
+  font-size: x-large;
   border-radius: 50px;
-  border : 2px solid #17554d;
+  border : 2px solid #0B7581;
   cursor: pointer;
   position:absolute;
   width: 250px;
@@ -246,10 +267,10 @@ button:hover{
 
 .ConsultationButtonInline{
   color: #D6F7FF;
-  background-color: #17554d;
-  font-size: medium;
+  background-color: #0B7581;
+  font-size: x-large;
   border-radius: 50px;
-  border : 2px solid #17554d;
+  border : 2px solid #0B7581;
   cursor: pointer;
   width: 250px;
   height: 75px;
@@ -276,7 +297,7 @@ button:hover{
 
 .FlexboxRow{
   padding: 0px;
-  margin-left: 20px;
+  margin-left: 50px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -300,20 +321,31 @@ button:hover{
   padding-bottom: 10px;
   margin-right: 60px;
   color: #17554d;
+  font-size: larger;
+  font-weight: bold;
 }
 
 .ServicesOffered{
+  background-color: inherit;
+  font-size: x-large;
   padding-bottom: 10px;
   
 }
 
 .ServicesListItemSubtext{
+  background-color: inherit;
   padding-right:60px;
-  font-size: small;
+  font-size: medium;
+}
+
+ul{
+  background-color: inherit;
 }
 
 .ServicesListItem{
+  background-color: inherit;
   color: #17554d;
+  font-size: large;
 }
 
 .ErrorMessageContainer{
@@ -326,7 +358,15 @@ button:hover{
   color: rgb(216, 68, 68);
 }
 
+.ServiceContainerCateg{
+  background-color: #0B7581;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 20px;
+}
+
 .flexboxColumn{
+  background-color: #0B7581;
   padding: 0px;
   margin: 0px;
   justify-content: center;
