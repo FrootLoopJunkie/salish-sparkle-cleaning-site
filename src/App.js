@@ -85,8 +85,8 @@ function App() {
                 <li className='ServicesListItem'>Table and Chair Cleaning: <span className='ServicesListItemSubtext'>Sanitizing dining tables and chairs</span></li>
                 <li className='ServicesListItem'>Floor Sweeping and Mopping: <span className='ServicesListItemSubtext'>Focusing on hard-to-reach areas</span></li>
                 <li className='ServicesListItem'>Pantry Tidying: <span className='ServicesListItemSubtext'>Organizing and wiping shelves (as requested)</span></li>
-                <li className='ServicesListItem'>**Refrigerator Interior: <span className='ServicesListItemSubtext'>On request, additional charge</span></li>
-                <li className='ServicesListItem'>**Oven Interior: <span className='ServicesListItemSubtext'>On request, additional charge</span></li>
+                <li className='ServicesListItem'>**Refrigerator Interior</li>
+                <li className='ServicesListItem'>**Oven Interior</li>
               </ul>
             </div>
             <div className='FlexboxColumn ServiceContainerCateg'>
@@ -119,9 +119,7 @@ function App() {
           <span>*As rates are hourly, all estimates are subject to change, notice will be given of any additional time needed,
             and no additional hours will be charged without your consent.</span>
           <br />
-          <span>** .</span>
-          <br />
-          <span>*** .</span>
+          <span>**On request, additional charge.</span>
         </div>
         <ConsultationButtonInline
           changePageTo={changePageTo}
