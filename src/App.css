@@ -124,17 +124,21 @@ button:hover{
 }
 
 .HeaderSalishSparkle{
+  font-size: x-large;
   background-color: inherit;
+  font-weight: bold;
+  margin-bottom: 3px;
 }
 
 .HeaderPhoneNumber{
   background-color: inherit;
   font-size: small;
+  text-decoration: none;
 }
 
 .HeaderMotto{
   background-color: inherit;
-  font-size: small
+  font-size: medium
 }
 
 .AboutHeader{
@@ -320,7 +324,7 @@ button:hover{
 .ServiceCatergory{
   padding-bottom: 10px;
   margin-right: 60px;
-  color: #17554d;
+  color: #d3aa52;
   font-size: larger;
   font-weight: bold;
 }

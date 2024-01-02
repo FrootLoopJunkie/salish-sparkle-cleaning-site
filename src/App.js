@@ -69,7 +69,7 @@ function App() {
         />
         <div className='HomeCleaningPageContainer'>
           <h3 className='ServicesOffered'>Home Cleaning</h3>
-          <span>$35/h* <br /> 1 Bedroom Home Estimated $105 @ 3 hours <br /> 3 Bedroom Home Estimated $175 @ 5 hours <br />  (Basic Services)</span>
+          <span>1 Bedroom Home Estimated $105 @ 3 hours <br /> 3 Bedroom Home Estimated $175 @ 5 hours <br />  Basic Service $35/h*</span>
           <ConsultationButtonInline
             changePageTo={changePageTo}
           />
